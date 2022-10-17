@@ -18,6 +18,6 @@
 # -109 <= nums[i] <= 109
 
 # Сложность O(n)
-# По ппмяти O(n)
+# По памяти O(n)
 def solution_217_1(nums: list[int]) -> bool:
     return len(nums) > len(set(nums))
