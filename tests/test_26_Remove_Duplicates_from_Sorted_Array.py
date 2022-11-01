@@ -11,4 +11,3 @@ import pytest
                          )
 def test_removeDuplicates(nums, expected_result):
     assert removeDuplicates(nums=nums) == expected_result
-    b = 1
